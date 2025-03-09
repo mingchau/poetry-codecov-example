@@ -7,10 +7,12 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.10"
-packages = [{ include = "math_operations" }]
 dependencies = [
 ]
 
+
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
